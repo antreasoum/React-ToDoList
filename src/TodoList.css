@@ -1,0 +1,41 @@
+.todoListMain .header input {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    font-size: 16px;
+    border: 1px solid rgb(45, 129, 182);
+    border-radius: 5px;
+}
+
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.todoListMain .header button:hover {
+    cursor: pointer;
+}
+
+.todoListMain .theList ul {
+    color: black;
+    background-color: rgba(136, 206, 250, 0.5);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 310px;
+    border-radius: 5px;
+    transition: background-color .2s ease-out;
+}
+
+.todoListMain .theList ul:hover {
+    background-color: crimson;
+}
+
+
+ul.theList {
+    padding: 0;
+}
