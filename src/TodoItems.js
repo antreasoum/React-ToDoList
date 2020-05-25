@@ -22,7 +22,7 @@ class TodoItems extends Component {
         var listItems = todoEntries.map(this.createTasks);
 
         return (
-            <ul class="container-fluid" className="theList">
+            <ul className="theList container-fluid">
                 {listItems}
             </ul>
 

@@ -53,9 +53,9 @@ class TodoList extends Component {
               <div className="header">
                 <form onSubmit={this.addItem}>
                     <input ref={(a) => this._inputElement = a} 
-                           class="border border-primary" placeholder="Enter text">
+                           className="border border-primary" placeholder="Enter text">
                     </input>
-                    <button type="submit" class="btn btn-outline-primary">Add</button> 
+                    <button type="submit" className="btn btn-outline-primary">Add</button> 
                 </form>
               </div>
               <TodoItems entries={this.state.items}
